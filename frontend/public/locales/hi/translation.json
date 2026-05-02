@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "send": "भेजें",
+    "receive": "प्राप्त करें",
+    "history": "इतिहास",
+    "sync": "सिंक इंजन"
+  },
+  "dashboard": {
+    "balance": "सुरक्षित वॉल्ट बैलेंस",
+    "trustScore": "ट्रस्ट स्कोर",
+    "securedWithPin": "पिन के साथ सुरक्षित",
+    "securedWithBio": "बायोमेट्रिक्स के साथ सुरक्षित",
+    "authorizedUser": "अधिकृत उपयोगकर्ता",
+    "demo": "डेमो",
+    "logout": "सत्र समाप्त करें",
+    "syncing": "वॉल्ट सिंक हो रहा है...",
+    "connected": "नेटवर्क कनेक्टेड",
+    "offline": "ऑफलाइन मोड सक्रिय"
+  },
+  "send": {
+    "title": "भुगतान भेजें",
+    "amount": "राशि",
+    "recipient": "प्राप्तकर्ता UPI आईडी",
+    "confirm": "विवरण की पुष्टि करें",
+    "authSuccessful": "प्रमाणीकरण सफल",
+    "generatingQR": "सुरक्षित टोकन उत्पन्न हो रहा है..."
+  },
+  "status": {
+    "pending": "लंबित",
+    "completed": "पूरा हुआ",
+    "failed": "विफल"
+  }
+}

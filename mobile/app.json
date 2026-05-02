@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "OfflinePay",
+    "slug": "offlinepay-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0f1e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.decodersai.offlinepay",
+      "infoPlist": {
+        "NSCameraUsageDescription": "OfflinePay needs camera access to scan QR codes for payments.",
+        "NSFaceIDUsageDescription": "OfflinePay uses biometrics to secure your vault.",
+        "NSBluetoothAlwaysUsageDescription": "OfflinePay uses Bluetooth for peer-to-peer offline payments.",
+        "NSBluetoothPeripheralUsageDescription": "OfflinePay uses Bluetooth for peer-to-peer offline payments."
+      }
+    },
+    "android": {
+      "package": "com.decodersai.offlinepay",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0f1e"
+      },
+      "permissions": [
+        "CAMERA",
+        "USE_BIOMETRIC",
+        "RECEIVE_SMS",
+        "SEND_SMS",
+        "VIBRATE",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_SCAN",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_ADVERTISE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow OfflinePay to access your camera"
+        }
+      ],
+      "expo-local-authentication",
+      "expo-barcode-scanner",
+      "react-native-ble-plx"
+    ]
+  }
+}

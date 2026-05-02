@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "send": "Send",
+    "receive": "Receive",
+    "history": "History",
+    "sync": "Sync Engine"
+  },
+  "dashboard": {
+    "balance": "Secure Vault Balance",
+    "trustScore": "Trust Score",
+    "securedWithPin": "Secured with PIN",
+    "securedWithBio": "Secured with Biometrics",
+    "authorizedUser": "Authorized User",
+    "demo": "Demo",
+    "logout": "End Session",
+    "syncing": "Synchronizing Vault...",
+    "connected": "Network Connected",
+    "offline": "Offline Mode Active"
+  },
+  "send": {
+    "title": "Send Payment",
+    "amount": "Amount",
+    "recipient": "Recipient UPI ID",
+    "confirm": "Confirm Details",
+    "authSuccessful": "Authorization Successful",
+    "generatingQR": "Generating Secure Token..."
+  },
+  "status": {
+    "pending": "Pending",
+    "completed": "Completed",
+    "failed": "Failed"
+  }
+}
